@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      df-messenger {
+        --df-messenger-bot-message: #b1b1b1;
+        --df-messenger-button-titlebar-color: #000;
+        --df-messenger-chat-background-color: #fafafa;
+        --df-messenger-input-box-color:#dadada;
+        --df-messenger-font-color: white;
+        --df-messenger-send-icon: #000000;
+        --df-messenger-user-message: #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <df-messenger
+      chat-icon="https:&#x2F;&#x2F;mindbendsvnit.in&#x2F;mb-logo-bg-black.jpg"
+      intent="WELCOME"
+      chat-title="MindBot"
+      agent-id="8da7d6bf-8128-45f6-979b-be25bfef623d"
+      language-code="en"
+      wait-open="1"
+    ></df-messenger>
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  </body>
+</html>
